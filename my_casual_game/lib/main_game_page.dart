@@ -26,10 +26,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE. **/
 
+import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
+
 import 'helpers/direction.dart';
 import 'helpers/joypad.dart';
-import 'package:flame/game.dart';
 import 'ray_world_game.dart';
 
 class MainGamePage extends StatefulWidget {
