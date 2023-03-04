@@ -1,3 +1,4 @@
+import 'package:flame/events.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
@@ -8,7 +9,8 @@ import 'components/world.dart';
 import 'components/world_collidable.dart';
 import 'helpers/map_loader.dart';
 
-class RayWorldGame extends FlameGame with HasCollisionDetection {
+class RayWorldGame extends FlameGame
+    with HasCollisionDetection, HasKeyboardHandlerComponents {
   final Player _player = Player();
   final World _world = World();
 
